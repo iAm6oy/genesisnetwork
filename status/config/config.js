@@ -18,7 +18,7 @@ const variables = {
 	buttons: {
 		forum: ["FORUM", "#forum"],
 
-		store: ["STORE", "https://genesishcf.tebex.io/"],
+		store: ["STORE", https://genesishcf.tebex.io/],
 
 		vote: ["VOTE", "#vote"]
 	},
