@@ -11,7 +11,7 @@ const variables = {
 
 	serverIp: "genesish.cf",
 
-	copiedText: "Ip has been copied",
+	copiedText: "IP has been copied",
 
 	
 
