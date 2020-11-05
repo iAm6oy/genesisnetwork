@@ -24,7 +24,7 @@ body {
 }
 
 .page_content_header .server_logo {
-	height: 200px;
+	height: 300px;
 	animation: floating 2s infinite;
 }
 

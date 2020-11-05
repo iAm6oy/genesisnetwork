@@ -1,15 +1,15 @@
 const variables = {
-	title: "Index || WebServer",
+	title: "Genesis Network | Status",
 
-	favicon: "./images/icon.png",
+	favicon: "../images/genesislogo.png",
 
-	description: "Minecraft Network Server",
+	description: "Status of Genesis Network",
 
-	principalText: "WebServer Minecraft",
+	principalText: "Genesis Network",
 
 	playerCounterText: "%pl-online% players online",
 
-	serverIp: "mc.hypixel.net",
+	serverIp: "genesish.cf",
 
 	copiedText: "Ip has been copied",
 
@@ -28,9 +28,9 @@ const variables = {
 	style: {
 		backgroundColor: "#000000db",
 
-		backgroundImageName: "./images/background.jpg",
+		backgroundImageName: "../images/genesishcfbg.jpg",
 
-		logoImageName: "./images/logo.png",
+		logoImageName: "../images/genesislogo.png",
 
 		logoAnimationFloat: true
 	}
