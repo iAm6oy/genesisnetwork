@@ -1,120 +1,78 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="UTF-8">
-<title>Error</title>
-<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-<link rel="icon" type="image/png" href="./images/genesislogo.png" sizes="32x32" />
-<style>
-  * {
-  margin: 0;
-  padding: 0;
-}
-
-html, body {
-  height: 100%;
-  background: url("./images/404bg.jpg") fixed center no-repeat;
-  background-size: cover;
-  color: white;
-  font-family: 'Inconsolata', monospace;
-  font-size: 100%;
-}
-
-.maintenance {
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-  font-size: 5rem;
-}
-
-.container {
-  display: table;
-  margin: 0 auto;
-  max-width: 1024px;
-  width: 100%;
-  height: 100%;
-  align-content: center;
-  position: relative;
-  box-sizing: border-box;
-}
-.container .what-is-up {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  display: block;
-  vertical-align: middle;
-  text-align: center;
-  box-sizing: border-box;
-}
-.container .what-is-up .spinny-cogs {
-  display: block;
-  margin-bottom: 2rem;
-}
-
-@-webkit-keyframes fa-spin-one {
-  0% {
-    -webkit-transform: translateY(-2rem) rotate(0deg);
-    transform: translateY(-2rem) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translateY(-2rem) rotate(-359deg);
-    transform: translateY(-2rem) rotate-(359deg);
-  }
-}
-@keyframes fa-spin-one {
-  0% {
-    -webkit-transform: translateY(-2rem) rotate(0deg);
-    transform: translateY(-2rem) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translateY(-2rem) rotate(-359deg);
-    transform: translateY(-2rem) rotate-(359deg);
-  }
-}
-.fa-spin-one, .container .what-is-up .spinny-cogs .fa:nth-of-type(1) {
-  -webkit-animation: fa-spin-one 1s infinite linear;
-  animation: fa-spin-one 1s infinite linear;
-}
-
-@-webkit-keyframes fa-spin-two {
-  0% {
-    -webkit-transform: translateY(-0.5rem) translateY(1rem) rotate(0deg);
-    transform: translateY(-0.5rem) translateY(1rem) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translateY(-0.5rem) translateY(1rem) rotate(-359deg);
-    transform: translateY(-0.5rem) translateY(1rem) rotate(-359deg);
-  }
-}
-@keyframes fa-spin-two {
-  0% {
-    -webkit-transform: translateY(-0.5rem) translateY(1rem) rotate(0deg);
-    transform: translateY(-0.5rem) translateY(1rem) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translateY(-0.5rem) translateY(1rem) rotate(-359deg);
-    transform: translateY(-0.5rem) translateY(1rem) rotate(-359deg);
-  }
-}
-.fa-spin-two, .container .what-is-up .spinny-cogs .fa:nth-of-type(3) {
-  -webkit-animation: fa-spin-two 2s infinite linear;
-  animation: fa-spin-two 2s infinite linear;
-}
-</style>
-</head>
-<body translate="no">
-<div class="container">
-<div class="what-is-up">
-<div class="spinny-cogs">
-<i class="fa fa-cog" aria-hidden="true"></i>
-<i class="fa fa-5x fa-cog fa-spin" aria-hidden="true"></i>
-<i class="fa fa-3x fa-cog" aria-hidden="true"></i>
-</div>
-<h1 class="maintenance">Genesis Network</h1>
-<h2>Our website is under construction.</h2>
-</div>
-</div>
-
-
-</body></html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Genesis Network | Home</title>
+        <link rel="icon" type="image/png" href="./images/genesislogo.png" sizes="32x32" />
+        <link href="style/bootstrap.css" rel="stylesheet" />
+        <link href="style/main.css" rel="stylesheet" />
+        <link href="style/font-awesome.css" rel="stylesheet" />
+        <link href="style/font-awesome.min.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="description" content="Website of Genesis Network" />
+        
+    </head>
+    
+    <body>
+        <div class="container-fluid">
+            <div class="header">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                            <li><a href="minigames.html"><i class="fa fa-gamepad"></i> Minigames</a></li>
+                            <li><a href="https://genesish.cf/discord"><i class="fa fa-users"></i> Community</a></li>
+                            <li><a href="downloads.html"><i class="fa fa-download"></i> Downloads</a></li>
+                            <li><a href="apply.html"><i class="fa fa-code"></i> Appys</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="login.html"><i class="fa fa-user"></i> Login</a></li>
+                            <li><a href="register.html"><i class="fa fa-user-plus"></i> Register</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                    <div class="col-md-12 title">
+                        <a href="index.html"><img class=homelogo src="./images/genesislogo.png"></a>
+                        <h1>Genesis Network</h1>
+                        <hr />
+                        <h4>genesish.cf</h4>
+                </div>
+            </div>
+            <div class="row block-bg">
+                <hr/>
+                <div class="col-md-4 socialmedia">
+                    <h4>Vote in</h4>
+                    <ul style="list-style: none;">
+                        <li><a href="https://es.namemc.com/server/genesish.cf">NameMC</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 socialmedia oneline">
+                    <h4>Social networks</h4><div>
+                    <ul style="list-style: none;">
+                        <li><a href="https://genesish.cf/discord"><i class="fa fa-discord fa-2x" aria-hidden="true"></i></a></li>
+                       <li><a href="https://twitter.com/Genesishcfnet"><i class="fa fa-twitter fa-2x social" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube-play fa-2x social" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="col-md-4 socialmedia">
+                    <h4>Info</h4>
+                    <p>
+                       Need help?
+                    </p>
+                    <p>
+                       Write us an email: <a href="sp.gnesish.cf.network@gmail.com">sp.gnesish.cf.network@gmail.com</a>
+                    </p>
+                </div>
+                <hr />
+                <div class="col-md-12 socialmedia">
+                    <p>
+                        <br>Genesis Network &copy; 2020 | Made by <a href="https://twitter.com/Genesishcfnet">Genesis Development Team.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
