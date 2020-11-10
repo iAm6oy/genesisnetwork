@@ -1,2 +1,2 @@
-# genesisnetwork
-Pagina Pre-Official de Genesis Network
+# Proyecto escolar Genesis
+Pagina Pre-Official de Proyecto Genesis
