@@ -152,11 +152,10 @@ a:hover {
     animation: floating 2s infinite;
 }
 
-.bartopindev {
-    margin-bottom: -15;
+hr.bartopindev {
+    margin-bottom: -15px;
 }
 
 .bardownstaff {
-    margin-top: 5;
+    margin-top: 5px;
 }
- 
