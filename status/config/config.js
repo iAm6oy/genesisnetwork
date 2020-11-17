@@ -7,11 +7,11 @@ const variables = {
 
 	principalText: "Genesis Network",
 
-	playerCounterText: "%pl-online% players online",
+	playerCounterText: "There is currently %pl-online% player online.",
 
 	serverIp: "genesish.cf",
 
-	copiedText: "IP has been copied",
+	copiedText: "Copied to clipboard",
 
 	
 
