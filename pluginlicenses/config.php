@@ -13,14 +13,14 @@
 //             MySQL-Data                     //
 //                                     	      //
 	//Database-Name
-	define("DB_NAME", "Licenses");
+	define("DB_NAME", "s261054_pluginlicenses");
 
 	//MySQL- Server-IP/Domanin
-	define("HOST", "localhost");
+	define("HOST", "5.9.246.145:3306");
 
 	//MySQL-Account
-  define("USERNAME", "YOUR-USERNAME");
-	define("PASSWORD", "YOUR-PASSWORD");
+  define("USERNAME", "u261054_OXcT8y7v7i");
+	define("PASSWORD", "s7qZnwS51KF!ghm=Ysnm15!p");
 
 //                                            //
 ////////////////////////////////////////////////
@@ -59,8 +59,8 @@
 //             Admin-Account                  //
 //                                     	      //
 	// You will need this data to login
-	define("ADMIN_USERNAME", "");
-	define("ADMIN_PASSWORD", "");
+	define("ADMIN_USERNAME", "iAmboy");
+	define("ADMIN_PASSWORD", "EnabCale1213");
   // To add more accs insert them into
 	// the 'users' table on the MySQL-Server
 
