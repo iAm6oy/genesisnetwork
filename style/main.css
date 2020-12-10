@@ -83,9 +83,14 @@ a:hover {
     float: left;
 }
 
+.namemc-img {
+    height: 28px;  
+}
 
-
-
+.discord-img {
+    margin-top: -14px;
+    width: 50px;
+}
 
 .blog .image {
     max-width: 100%;
