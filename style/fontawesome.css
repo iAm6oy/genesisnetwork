@@ -1299,9 +1299,6 @@ readers do not read off random characters that represent icons */
 .fa-directions:before {
   content: "\f5eb"; }
 
-.fa-discord:before {
-  content: "\f392"; }
-
 .fa-discourse:before {
   content: "\f393"; }
 
