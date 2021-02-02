@@ -1,9 +1,9 @@
 body {
-    background-image: url("../images/wallpaper.png");
+    background-image: url("../images/wallpaper.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     text-align: center;
 }
 
@@ -85,11 +85,6 @@ a:hover {
 
 .namemc-img {
     height: 28px;  
-}
-
-.discord-img {
-    margin-top: -14px;
-    width: 50px;
 }
 
 .blog .image {
