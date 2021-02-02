@@ -1594,6 +1594,7 @@ pre code {
     padding-right: 15px
 }
 .row {
+    margin-top: -10px;
     margin-left: -15px;
     margin-right: -15px;
 }
