@@ -11,12 +11,23 @@
 }
 
 html, body {
-  height: 150%;
-  background: url("./images/404bg.jpg") fixed center no-repeat;
-  background-size: auto;
+  height: 100%;
+  background: url("./images/404bg.png") fixed center no-repeat;
+  background-size: all;
+  overflow: hidden;
   color: white;
   font-family: 'Inconsolata', monospace;
   font-size: 100%;
+}
+
+.website-background {
+  background-color: rgba(0, 0, 0, 0.45);
+  width: -webkit-fill-available;
+  width: -moz-available;
+  height: -webkit-fill-available;
+  height: 100vh;
+
+  background-size: cover;
 }
 
 .maintenance {
@@ -103,18 +114,17 @@ html, body {
 </style>
 </head>
 <body translate="no">
-<div class="container">
-<div class="what-is-up">
-<div class="spinny-cogs">
-<i class="fa fa-cog" aria-hidden="true"></i>
-<i class="fa fa-5x fa-cog fa-spin" aria-hidden="true"></i>
-<i class="fa fa-3x fa-cog" aria-hidden="true"></i>
-</div>
-<h1 class="maintenance">404</h1>
-<h2>Our website is under construction</h2>
-<h3>We can't find the report you're looking for.<h3>
-</div>
-</div>
-
-
-</body></html>
+  <div class="website-background">
+    <div class="container">
+      <div class="what-is-up">
+        <div class="spinny-cogs">
+          <i class="fa fa-cog" aria-hidden="true"></i>
+          <i class="fa fa-5x fa-cog fa-spin" aria-hidden="true"></i>
+          <i class="fa fa-3x fa-cog" aria-hidden="true"></i>
+        </div>
+        <h1 class="maintenance">404</h1>
+        <h2>Our website is under construction</h2>
+        <h3>We can't find the report you're looking for.<h3>
+        </div>
+      </div>
+    </body></html>
