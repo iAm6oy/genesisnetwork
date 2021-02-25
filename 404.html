@@ -9,32 +9,31 @@
   margin: 0;
   padding: 0;
 }
-
+ 
 html, body {
   height: 100%;
   background: url("./images/404bg.png") fixed center no-repeat;
-  overflow: hidden;
+  background-size: cover;
+  animation: movimiento 40s infinite linear alternate;
   color: white;
   font-family: 'Inconsolata', monospace;
   font-size: 100%;
+} 
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
 }
-
-.website-background {
-  background-color: rgba(0, 0, 0, 0.45);
-  width: -webkit-fill-available;
-  width: -moz-available;
-  height: -webkit-fill-available;
-  height: 100vh;
-
-  background-size: cover;
-}
-
+ 
+ 
 .maintenance {
   text-transform: uppercase;
   margin-bottom: 1rem;
   font-size: 5rem;
 }
-
+ 
 .container {
   display: table;
   margin: 0 auto;
@@ -60,7 +59,7 @@ html, body {
   display: block;
   margin-bottom: 2rem;
 }
-
+ 
 @-webkit-keyframes fa-spin-one {
   0% {
     -webkit-transform: translateY(-2rem) rotate(0deg);
@@ -85,7 +84,7 @@ html, body {
   -webkit-animation: fa-spin-one 1s infinite linear;
   animation: fa-spin-one 1s infinite linear;
 }
-
+ 
 @-webkit-keyframes fa-spin-two {
   0% {
     -webkit-transform: translateY(-0.5rem) translateY(1rem) rotate(0deg);
@@ -113,17 +112,19 @@ html, body {
 </style>
 </head>
 <body translate="no">
-  <div class="website-background">
-    <div class="container">
-      <div class="what-is-up">
-        <div class="spinny-cogs">
-          <i class="fa fa-cog" aria-hidden="true"></i>
-          <i class="fa fa-5x fa-cog fa-spin" aria-hidden="true"></i>
-          <i class="fa fa-3x fa-cog" aria-hidden="true"></i>
-        </div>
-        <h1 class="maintenance">404</h1>
-        <h2>Our website is under construction</h2>
-        <h3>We can't find the report you're looking for.<h3>
-        </div>
-      </div>
-    </body></html>
+<div class="container">
+<div class="what-is-up">
+<div class="spinny-cogs">
+<i class="fa fa-cog" aria-hidden="true"></i>
+<i class="fa fa-5x fa-cog fa-spin" aria-hidden="true"></i>
+<i class="fa fa-3x fa-cog" aria-hidden="true"></i>
+</div>
+<h1 class="maintenance">404</h1>
+<h2 >Our website is under construction</h2>
+<h3 >We can't find the report you're looking for.<h3>
+ 
+</div>
+</div>
+ 
+</body>
+</html>
