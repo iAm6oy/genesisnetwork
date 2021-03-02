@@ -16,7 +16,7 @@ body {
     }
  
 }
- 
+
 a {
     text-decoration: none;
     color: dimgray;
@@ -31,9 +31,18 @@ a:hover {
 }
  
 .nav li a:hover {
+    display: block;
+    text-decoration: none;
     color: lightgreen;
 }
- 
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
 .title {
     margin-top: 6%;
     color: #ffffff;
@@ -81,8 +90,7 @@ a:hover {
     height: 100%;
 }
  
- 
- 
+
 .bottom {
     float: bottom;
     margin-bottom: 0px;
@@ -172,4 +180,42 @@ hr.bartopindev {
  
 .TextTicket {
     padding-bottom: 10px;
+}
+
+#btn-nav-menu {
+    display: none;
+}
+
+.bars{
+    display: none;
+    color: #ffffff;
+}
+
+.bars:hover {
+    cursor: pointer;
+    color: lightgreen;
+}
+
+@media (max-width:768px) {
+
+    .bars {
+        display: block;
+        margin-top: 5px;
+        margin-right: 153%;
+    }
+
+    .navbar {
+        position: absolute;
+        margin-right: -95%;
+        margin-top: -150%;
+        transition: all 0.7s;
+    }
+
+    .nav ul {
+        flex-direction: column;
+    }
+
+    #btn-nav-menu:checked ~ .navbar {
+        margin: 0;
+    }
 }

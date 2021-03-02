@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+ 
+ 
+}
+ 
+.container-header{
+    width: 100%;
+    max-width: 1200px;
+    position:relative;
+    margin: auto;
+}
+ 
+.logo-title{
+    display: flex;
+ 
+}
+ 
+.logo-title img{
+    position: relative;
+   width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    left:300px;
+ 
+ 
+}
+ 
+.logo-title h4{
+    position:absolute;
+    color: white;
+    left: 40px;
+    bottom top:100px; 
+    margin right:10px; 
+}
+ 
+.icon-menu{
+ 
+    font-size: 25px;
+    position:absolute;
+    top: 20px;
+    color: white;
+    right: 1220px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    transition: all 300ms;
+    cursor: pointer;
+ 
+ 
+}
+ 
+.icon-menu:hover{
+    background: rgba(255, 255, 255, 0.4);
+}
+ 
+ 
+ 
+/*Portada*/
+ 
+ 
+ 
+.container-portada{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url(../images/minigames/bedw.jpg);
+    background-size: 200%;
+    animation: movimiento 10s infinite linear alternate;  
+}
+ 
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+ 
+ 
+.capa-gradient{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(black, black, black);
+    opacity: 0.5;
+}
+ 
+.container-details{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+ 
+.details{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+ 
+.details h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 10px;
+ 
+}
+ 
+.details p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+ 
+.details button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background: none;
+    border-style: none;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    transition: background 300ms;
+    cursor: pointer;
+    margin-left: 10px;
+}
+ 
+.details button:hover{
+    background: black;
+    color: white;
+}
+ 
+ 
+/*Articulo*/
+ 
+main{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+ 
+article{
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+ 
+article h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+ 
+article hr{
+    max-width: 500px;
+    height: 4px;
+    border-style: none;
+    background: -webkit-linear-gradient(left, black, #0672d0);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+ 
+article p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+ 
+ 
+ 
+@media screen and (max-width: 500px){
+    .details p{
+        font-size: 18px;
+ 
+ 
+        }
+ 
+ 
+ }
+/*MENU*/
+.container-menu{
+    width: 100%;
+    height: 100vh;
+     background: -webkit-linear-gradient(left bottom, black, #00C09A);
+    opacity: .9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+ 
+ 
+.redes-close{
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+ 
+.redes-close label{
+    font-size: 26px;
+    margin: 6px;
+    color: white;
+}
+ 
+.redes-close font{
+ 
+ 
+   position: absolute;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+ 
+.redes-close font:hover{
+    transform: rotate(180deg);
+}
+ 
+ 
+.container-menu ul{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+ 
+.container-menu ul li{
+    list-style: none;
+    padding: 10px;
+}
+ 
+.container-menu ul li a{
+    color:white; 
+    right:500px;
+    font-size: 30px;
+    text-decoration: none;
+    position: relative;
+}
+ 
+.container-menu ul li a:before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 0px;
+    height: 2px;
+    background: white;
+    transition: all 300ms;
+}
+ 
+.container-menu ul li a:hover:before{
+    width: 120%;
+ 
+}
